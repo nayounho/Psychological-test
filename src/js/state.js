@@ -14,7 +14,11 @@ const test = [
     a: [
       { num: 'a', answer: '보폭을 넓게, 빨리 걷는다.', score: 6 },
       { num: 'b', answer: '보폭을 좁게, 빨리 걷는다.', score: 4 },
-      { num: 'c', answer: '머리를 들고, 세상을 정면으로 바라보며 덜 빠르게 걷는다.', score: 7 },
+      {
+        num: 'c',
+        answer: '머리를 들고, 세상을 정면으로 바라보며 덜 빠르게 걷는다.',
+        score: 7
+      },
       { num: 'd', answer: '바닥을 보며 덜 빠르게 걷는다.', score: 2 },
       { num: 'e', answer: '아주 느리게 걷는다.', score: 1 }
     ]
@@ -26,8 +30,16 @@ const test = [
       { num: 'a', answer: '내 팔짱을 끼고 서서', score: 4 },
       { num: 'b', answer: '두! 손을 마주잡고', score: 2 },
       { num: 'c', answer: '한 손이나 양 손을 힙에 얹고', score: 5 },
-      { num: 'd', answer: '얘기 나누는 상대방을 건드리거나 살짝 밀면서', score: 7 },
-      { num: 'e', answer: '내 귀나 턱을 만지작거리거나 손가락으로 머리를 빗으면서', score: 6 }
+      {
+        num: 'd',
+        answer: '얘기 나누는 상대방을 건드리거나 살짝 밀면서',
+        score: 7
+      },
+      {
+        num: 'e',
+        answer: '내 귀나 턱을 만지작거리거나 손가락으로 머리를 빗으면서',
+        score: 6
+      }
     ]
   },
   {
@@ -44,7 +56,11 @@ const test = [
     id: 5,
     q: '뭔가 아주 재미있는 일이 생겼을 때, 나는',
     a: [
-      { num: 'a', answer: '아주 큰 소리로 즐거움을 숨기지 않고 웃는다.', score: 6 },
+      {
+        num: 'a',
+        answer: '아주 큰 소리로 즐거움을 숨기지 않고 웃는다.',
+        score: 6
+      },
       { num: 'b', answer: '웃지만 그다지 크지 않은 소리로 웃는다.', score: 4 },
       { num: 'c', answer: '조용히 소리를 별로 내지 않으며 웃는다.', score: 3 },
       { num: 'd', answer: '오히려 쑥스러운 듯한 미소.', score: 5 }
@@ -54,9 +70,21 @@ const test = [
     id: 6,
     q: '파티나 사람들이 많이 모이는 장소에 나는',
     a: [
-      { num: 'a', answer: '사람들이 내 존재를 의식하도록 화려한 등장을 한다.', score: 6 },
-      { num: 'b', answer: '아는 사람들을 찾을 수 있을까 해서 둘러보며 차분히 들어선다.', score: 4 },
-      { num: 'c', answer: '시선을 끌지 않기 위해 할 수 있는 한 최대로 조용히 입장한다.', score: 2 }
+      {
+        num: 'a',
+        answer: '사람들이 내 존재를 의식하도록 화려한 등장을 한다.',
+        score: 6
+      },
+      {
+        num: 'b',
+        answer: '아는 사람들을 찾을 수 있을까 해서 둘러보며 차분히 들어선다.',
+        score: 4
+      },
+      {
+        num: 'c',
+        answer: '시선을 끌지 않기 위해 할 수 있는 한 최대로 조용히 입장한다.',
+        score: 2
+      }
     ]
   },
   {
@@ -87,7 +115,11 @@ const test = [
     a: [
       { num: 'g', answer: '몸을 똑바로 펴고 누운 포즈이다.', score: 7 },
       { num: 'g', answer: '엎드린 채로 몸을 죽 편 포즈이다.', score: 6 },
-      { num: 'g', answer: '약간 몸을 둥글린 채로 옆으로 누운 포즈이다.', score: 4 },
+      {
+        num: 'g',
+        answer: '약간 몸을 둥글린 채로 옆으로 누운 포즈이다.',
+        score: 4
+      },
       { num: 'g', answer: '한 팔을 베고 있다.', score: 2 },
       { num: 'g', answer: '머리를 이불 밑에 넣고 있다.', score: 1 }
     ]

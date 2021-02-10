@@ -1,0 +1,50 @@
+@import './reset.css';
+
+.main {
+  width: 500px;
+  height: 500px;
+  background: tomato;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main > button {
+  font-size: 4em;
+  padding: 20px;
+  letter-spacing: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.main > span {
+  /* font-size: 1.5em; */
+  /* display: flex;
+  position: relative; */
+  /* left: 50%; */
+  /* transform: translate(-50%); */
+  margin: 20px;
+}
+
+.title1 {
+  /* font-size: 1.5em;
+  margin: 100px 0 0 50px; */
+}
+.title2 {
+  display: block;
+  font-size: 2rem;
+  /* display: block;
+  font-size: 50px;
+  left: 23%;
+  margin: 25px; */
+  /* transform: translate(-50%); */
+}
+.title3 {
+  /* font-size: 1.5em;
+  margin-right: 10px;
+  float: right; */
+}
