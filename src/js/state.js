@@ -85,11 +85,11 @@ const test = [
     id: 9,
     q: '잠자리에 들어서 잠들기 바로 직전에 나는',
     a: [
-      { num: 'g', answer: '몸을 똑바로 펴고 누운 포즈이다.', score: 7 },
-      { num: 'g', answer: '엎드린 채로 몸을 죽 편 포즈이다.', score: 6 },
-      { num: 'g', answer: '약간 몸을 둥글린 채로 옆으로 누운 포즈이다.', score: 4 },
-      { num: 'g', answer: '한 팔을 베고 있다.', score: 2 },
-      { num: 'g', answer: '머리를 이불 밑에 넣고 있다.', score: 1 }
+      { num: 'a', answer: '몸을 똑바로 펴고 누운 포즈이다.', score: 7 },
+      { num: 'b', answer: '엎드린 채로 몸을 죽 편 포즈이다.', score: 6 },
+      { num: 'c', answer: '약간 몸을 둥글린 채로 옆으로 누운 포즈이다.', score: 4 },
+      { num: 'd', answer: '한 팔을 베고 있다.', score: 2 },
+      { num: 'e', answer: '머리를 이불 밑에 넣고 있다.', score: 1 }
     ]
   },
   {
